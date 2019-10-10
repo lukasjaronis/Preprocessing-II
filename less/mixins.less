@@ -1,1 +1,21 @@
 // Mixins in here
+
+.primarybtn(@bgcolor: #038080) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: 800;
+    color: #FFFFFF;
+    background: @bgcolor;
+    height: 4rem;
+    border-radius: 25px;
+}
+
+
+.flexyflexy(@row, @center, @wrap) {
+    flex-direction: @row;
+    align-items: @center;
+    flex-wrap: @wrap;
+}
+
