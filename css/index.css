@@ -227,7 +227,7 @@ header .row nav ul li a {
   border: none;
   text-decoration: none;
 }
-@media only screen and (min-width: 300px) and (max-width: 500px) {
+@media only screen and (min-width: 300px) and (max-width: 600px) {
   header .row nav ul li a {
     color: red;
   }
@@ -260,7 +260,7 @@ header .row nav ul li a:hover {
   width: 48%;
   padding-right: 1%;
 }
-@media only screen and (min-width: 300px) and (max-width: 500px) {
+@media only screen and (min-width: 300px) and (max-width: 600px) {
   .home .content-section .text-content {
     display: flex;
     flex-direction: row;
@@ -275,7 +275,7 @@ header .row nav ul li a:hover {
   width: 48%;
   padding-left: 1%;
 }
-@media only screen and (min-width: 300px) and (max-width: 500px) {
+@media only screen and (min-width: 300px) and (max-width: 600px) {
   .home .content-section .img-content {
     display: flex;
     flex-direction: row;
@@ -296,7 +296,7 @@ header .row nav ul li a:hover {
   padding-left: 1%;
   padding-right: 0;
 }
-@media only screen and (min-width: 300px) and (max-width: 500px) {
+@media only screen and (min-width: 300px) and (max-width: 600px) {
   .home .inverse-content .text-content {
     display: flex;
     flex-direction: row;
@@ -322,7 +322,7 @@ header .row nav ul li a:hover {
   display: flex;
   justify-content: space-between;
 }
-@media only screen and (min-width: 300px) and (max-width: 500px) {
+@media only screen and (min-width: 300px) and (max-width: 600px) {
   .home .content-pick {
     flex-direction: row;
     flex-wrap: wrap;
@@ -345,7 +345,7 @@ header .row nav ul li a:hover {
   height: 4rem;
   border-radius: 25px;
 }
-@media only screen and (min-width: 300px) and (max-width: 500px) {
+@media only screen and (min-width: 300px) and (max-width: 600px) {
   .home .content-pick .destination .btn {
     margin-top: 1rem;
     display: flex;
@@ -360,7 +360,7 @@ header .row nav ul li a:hover {
     width: 100%;
   }
 }
-@media only screen and (min-width: 300px) and (max-width: 500px) {
+@media only screen and (min-width: 300px) and (max-width: 600px) {
   .home .content-pick .destination {
     display: flex;
     flex-wrap: wrap;
