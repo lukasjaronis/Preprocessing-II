@@ -1,11 +1,60 @@
 // Navigation Styles here
 
-nav {
-    ul {
-        li {
-            list-style: none;
-            
+header {
+    border-bottom: 2px dashed @navigation-border;
+    margin-top: 2rem;
+
+    .row {
+
+        .col-1-of-2 {
+
+
+            &:first-child {
+                display: flex;
+                flex-direction: row;
+                justify-content: flex-start;
+                align-items: center;
+            }
+
+            &:last-child {
+                display: flex;
+                flex-direction: row;
+                justify-content: flex-end;
+                align-items: center;
+            }
         }
-    }
+
+        nav {
+
+            margin: 0 auto;
+
+            ul {
+                display: flex;
+
+
+                li {
+                    margin-left: 5rem;
+                    font-size: 1.4rem;
+                    list-style: none;
     
+
+                    a {
+                        color: black;
+                        border: none;
+                        text-decoration: none;
+
+                        @media @mobile {
+                            color: red;
+                        }
+
+                        &:hover {
+                            color: rgb(161, 101, 31);
+                            font-weight: 900;
+                        }
+                    }
+                }
+            }
+        }
+
+    }
 }
