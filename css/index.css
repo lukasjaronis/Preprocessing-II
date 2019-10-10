@@ -200,6 +200,10 @@ img {
     background-color: #FFEBCD;
   }
 }
+.content-wrapper {
+  margin: 0 auto;
+  max-width: 100%;
+}
 header {
   border-bottom: 2px dashed #C0C0C0;
   margin-top: 2rem;
